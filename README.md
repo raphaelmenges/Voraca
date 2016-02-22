@@ -2,12 +2,12 @@
 Volume ray-casting powered by OpenGL 3.3 core profile. This project was part of my bachelor thesis in 2014!
 
 ### Screenshot
-TODO
+![Screenshot](media/Voraca-Screenshot-0.png)
 
 ### Videos
-* https://www.youtube.com/watch?v=sM18a2M5_FM
-* https://www.youtube.com/watch?v=ZcDHNtyZ3es
-* https://www.youtube.com/watch?v=rirZg5DN4OE
+* [Showcase: Part 1](https://www.youtube.com/watch?v=sM18a2M5_FM)
+* [Showcase: Part 2](https://www.youtube.com/watch?v=ZcDHNtyZ3es)
+* [Tutorial: Import DAT](https://www.youtube.com/watch?v=rirZg5DN4OE)
 
 ## Dependencies
 * GLM: http://glm.g-truc.net/0.9.7/index.html (MIT license chosen)
@@ -24,5 +24,5 @@ TODO
 * Shader::draw line 174: Reset of textureSlotCounter only works as expected if all textures assigned once or all textures assigned each frame. Mixing would break it.
 
 ## Acknowledgements
-Thanks to Andre Taulien for supporting in the Linux compatibility!
-Thanks to Nils Höhner for supporting in the MacOS compatibility! (not given right now)
+* Thanks to Andre Taulien for supporting in the Linux compatibility!
+* Thanks to Nils Höhner for supporting in the MacOS compatibility! (not given right now)

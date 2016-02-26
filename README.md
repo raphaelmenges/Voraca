@@ -1,13 +1,29 @@
 # Voraca
-Volume ray-casting powered by OpenGL 3.3 core profile. This project was part of my bachelor thesis in 2014!
+Volume raycasting powered by OpenGL 3.3 core profile. This project was part of my bachelor thesis in 2014!
 
-### Screenshot
+## Features
+* Loading of DAT and PVM (uncompressed) files
+* Realtime manipulation of 2D transferfunction via mouse
+* Bezier curve interpolation between set points in transferfunction
+* Multiply shading parameters per point in transferfunction
+* Local lighting via sun
+* Acceleration techniques (Early Ray Termination, Empty Space Skipping...)
+* Spherical reflection
+* Volume clipping with box
+* Launch file, transferfunction and raycaster settings can be saved as XML
+
+## Screenshot
 ![Screenshot](media/Voraca-Screenshot-0.png)
 
-### Videos
+## Videos
 * [Showcase: Part 1](https://www.youtube.com/watch?v=sM18a2M5_FM)
 * [Showcase: Part 2](https://www.youtube.com/watch?v=ZcDHNtyZ3es)
 * [Tutorial: Import DAT](https://www.youtube.com/watch?v=rirZg5DN4OE)
+
+## HowTo
+Just run CMake to create a project for your IDE and compile it. Should work on Windows and Linux with OpenGL 3.3 core profile compatible graphics hardware. Tested under:
+* Windows 10, Visual Studio 2015, 64bit project, AMD Radeon HD 7970
+* Arch Linux, GCC 5.x, 64bit project, Nvidia 860m with optirun
 
 ## Dependencies
 * GLM: http://glm.g-truc.net/0.9.7/index.html (MIT license chosen)
@@ -17,7 +33,8 @@ Volume ray-casting powered by OpenGL 3.3 core profile. This project was part of 
 * RapidXML 1.13: http://rapidxml.sourceforge.net (Boost Software License chosen)
 
 ## TODO
-* Better description
+* Warnings in GCC (all about char* conversion)
+* Does not render correclty on linux with intel gpu
 * 32bit support for Windows / Visual Studio
 * Importance volume does not use complete information of volume if volume resolution % downscale !=0
 * Histogram is one pixel too wide

@@ -23,7 +23,7 @@ Volume raycasting powered by OpenGL 3.3 core profile. This project was part of m
 ## HowTo
 Just run CMake to create a project for your IDE and compile it. Should work on Windows and Linux with OpenGL 3.3 core profile compatible graphics hardware. Tested under:
 * Windows 10, Visual Studio 2015, 64bit project, AMD Radeon HD 7970
-* Arch Linux, GCC 5.x, 64bit project, Nvidia 860m with optirun
+* Arch Linux, GCC 5.x, 64bit project, Nvidia Geforce 860m running with optirun
 
 ## Dependencies
 * GLM: http://glm.g-truc.net/0.9.7/index.html (MIT license chosen)

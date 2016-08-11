@@ -29,7 +29,7 @@ Just run CMake to create a project for your IDE and compile it. Should work on W
 * GLM: http://glm.g-truc.net/0.9.7/index.html (MIT license chosen)
 * picoPNG: http://lodev.org/lodepng
 * GLFW3: http://www.glfw.org
-* AntTweakBar 1.16: http://anttweakbar.sourceforge.net
+* AntTweakBar 1.16: http://anttweakbar.sourceforge.net (included in externals but renamed gitignore to upload binaries)
 * RapidXML 1.13: http://rapidxml.sourceforge.net (Boost Software License chosen)
 
 ## TODO
